@@ -7,3 +7,5 @@ matplotlib
 seaborn
 tensorboard 
 streamlit
+keras
+scikeras

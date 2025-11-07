@@ -53,7 +53,7 @@ churn_scaler = try_load_pickle('scaler.pkl')
 
 # Try multiple typical churn model file names (some notebooks saved 'churn_model.h5' etc)
 churn_model = None
-for candidate in ['churn_model_v2.h5', 'churn_model.h5', 'churn_model_v2', 'churn_model']:
+for candidate in ['churn_model_v2.h5']:
     if churn_model is None:
         churn_model = try_load_keras(candidate)
 if churn_model is None:
